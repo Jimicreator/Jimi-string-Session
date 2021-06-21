@@ -18,11 +18,11 @@ API_TEXT = """🙋‍♂ Hi {},
 
 I am a String Session generator bot.
 
-For generating string session send me your `API_ID` 🐿
+**For generating string session send me your `API_ID` **🐿
 """
-HASH_TEXT = "Ok Now Send your `API_HASH` to Continue.\n\nPress /cancel to Cancel.🐧"
+HASH_TEXT = "**Ok Now Send your `API_HASH` to Continue.\n\nPress /cancel to Cancel.** 🐧"
 PHONE_NUMBER_TEXT = (
-    "📞__ Now send your Phone number to Continue"
+    "**📞__ Now send your Phone number to Continue**"
     " include Country code.__\n**Eg:** `+13124562345`\n\n"
     "Press /cancel to Cancel."
 )
@@ -88,7 +88,7 @@ async def generate_str(c, m):
 
         confirm = await c.ask(
             chat_id=m.chat.id,
-            text=f'🤔 Is `{phone_number}` correct? (y/n): \n\ntype: `y` (If Yes)\ntype: `n` (If No)'
+            text=f'🤔 Is `{phone_number}` correct? (y/n): \n\ntype: `y` (If Yes)\ntype: `n` (If No) \n **Use same laters**'
         )
         if await is_cancel(m, confirm.text):
             return
@@ -162,7 +162,7 @@ async def generate_str(c, m):
         return
     try:
         session_string = await client.export_session_string()
-        await client.send_message("me", f"**Your String Session 👇**\n\n`{session_string}`\n\nThanks For using {(await c.get_me()).mention(style='md')}")
+        await client.send_message("me", f"**Your String Session 👇**\n\n`{session_string}`\n\nThanks For using {(await c.get_me()).mention(style='md')} \n ❤️@JNS_BOTS❤️")
         text = "✅ Successfully Generated Your String Session and sent to you saved messages.\nCheck your saved messages or Click on Below Button."
         reply_markup = InlineKeyboardMarkup(
             [[InlineKeyboardButton(text="String Session ↗️", url=f"tg://openmessage?user_id={m.chat.id}")]]
@@ -199,6 +199,7 @@ async def help_cb(c, m, cb=True):
 **NOTE:**
 
 If you made any mistake anywhere press /cancel and then press /start
+❤️@JNS_BOTS❤️
 """
 
     buttons = [[
@@ -228,15 +229,13 @@ __📝 Language:__ [Python3](https://www.python.org/)
 
 __🧰 Framework:__ [Pyrogram](https://github.com/pyrogram/pyrogram)
 
-__👨‍💻 Developer:__ [𝐀𝐧𝐨𝐧𝐲𝐦𝐨𝐮𝐬](https://t.me/Ns_AnoNymouS)
+__👨‍💻 Developer:__ [𝐀𝐧𝐨𝐧𝐲𝐦𝐨𝐮𝐬](https://t.me/jintons)
 
-__📢 Channel:__ [NS BOT UPDATES](https://t.me/Ns_bot_updates)
+__📢 Channel:__ [JNS BOT UPDATES](https://t.me/jns_bots)
 
-__👥 Group:__ [Ns BOT SUPPORT](https://t.me/Ns_Bot_supporters)
+__👥 Group:__ [JNS BOT SUPPORT](https://t.me/jns_fc_bots)
 
-__🌐 Source Code:__ [Press Me 😋](https://github.com/Ns-AnoNymouS/string-session-generator-bot)
-
-__🚀 YouTube Channel:__ [Ns Bots](https://youtube.com/channel/UC9NnqJ63aSzv457iUMM06vQ)
+__🚀 Movies:__ [FILM CORNER](https://t.me/FCfilmcornerfc)
 """
 
     buttons = [[
