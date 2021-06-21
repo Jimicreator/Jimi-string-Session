@@ -229,7 +229,7 @@ __📝 Language:__ [Python3](https://www.python.org/)
 
 __🧰 Framework:__ [Pyrogram](https://github.com/pyrogram/pyrogram)
 
-__👨‍💻 Developer:__ [𝐀𝐧𝐨𝐧𝐲𝐦𝐨𝐮𝐬](https://t.me/jintons)
+__👨‍💻 Developer:__ [JNS BOTS DEV](https://t.me/jintons)
 
 __📢 Channel:__ [JNS BOT UPDATES](https://t.me/jns_bots)
 
