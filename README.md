@@ -22,7 +22,7 @@ Generate Pyrogram String Session Using this bot.
 - [Krishna-Singhal](https://github.com/Krishna-Singhal)
 - [Abir Hasan](https://github.com/AbirHasan2005)
 - [Anonymous](https://github.com/Ns-AnoNymouS)
-- [Jinto](https://github.com/jinto4638)
+- [JNS BOTS](https://github.com/jNSBOT)
 
 ### Note:
 This was First made by [Krishna Singhal](https://github.com/Krishna-Singhal). And I am very lazy to add README.md for this repo so taken the README.MD from [Abir Hasan](https://github.com/AbirHasan2005). I made small changes in this repo to make easy for the beginners to deploy.
