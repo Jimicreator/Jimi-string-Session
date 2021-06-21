@@ -2,7 +2,7 @@
 Generate Pyrogram String Session Using this bot.
 
 ## Demo Bot:
-<a href="https://telegram.dog/string_session_Nsbot"><img src="https://img.shields.io/badge/Telegram-Bot-blue.svg?logo=telegram"></a>
+<a href="https://telegram.dog/STRING_SESSION_jns_BOT"><img src="https://img.shields.io/badge/Telegram-Bot-blue.svg?logo=telegram"></a>
 
 ## Configs:
 - API_HASH
@@ -13,7 +13,7 @@ Generate Pyrogram String Session Using this bot.
   - Telegram Bot Token from [here](https://telegram.dog/BotFather).
 
 ## Deploy Now:
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/JNSBOT/string-session-generator-bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/JNSBOT/JNS-string-session-generator-bot)
 
 ## Support Group:
 <a href="https://telegram.dog/Ns_Bot_supporters"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Group-blue.svg?logo=telegram"></a>
@@ -22,6 +22,7 @@ Generate Pyrogram String Session Using this bot.
 - [Krishna-Singhal](https://github.com/Krishna-Singhal)
 - [Abir Hasan](https://github.com/AbirHasan2005)
 - [Anonymous](https://github.com/Ns-AnoNymouS)
+- [Jinto](https://github.com/jinto4638)
 
 ### Note:
 This was First made by [Krishna Singhal](https://github.com/Krishna-Singhal). And I am very lazy to add README.md for this repo so taken the README.MD from [Abir Hasan](https://github.com/AbirHasan2005). I made small changes in this repo to make easy for the beginners to deploy.
