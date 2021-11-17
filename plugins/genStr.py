@@ -14,7 +14,7 @@ from pyrogram.errors import (
 )
 
 
-API_TEXT = """🙋‍♂ Hi {},
+API_TEXT = """🙋‍♂ Hi Dear {},
 
 I am a String Session generator bot.
 
@@ -45,7 +45,7 @@ async def generate_str(c, m):
     try:
         check_api = int(api_id)
     except Exception:
-        await m.reply("**--🛑 API ID Invalid 🛑--**\nPress /start to create again.")
+        await m.reply("**--🧐 API ID Invalid 🧐--**\nPress /start to create again.")
         return
 
     get_api_hash = await c.ask(
@@ -61,13 +61,13 @@ async def generate_str(c, m):
     await get_api_hash.request.delete()
 
     if not len(api_hash) >= 30:
-        await m.reply("--**🛑 API HASH Invalid 🛑**--\nPress /start to create again.")
+        await m.reply("--**🧐 API HASH Invalid 🧐**--\nPress /start to create again.")
         return
 
     try:
         client = Client(":memory:", api_id=api_id, api_hash=api_hash)
     except Exception as e:
-        await c.send_message(m.chat.id ,f"**🛑 ERROR: 🛑** `{str(e)}`\nPress /start to create again.")
+        await c.send_message(m.chat.id ,f"**🧐 ERROR: 🧐** `{str(e)}`\nPress /start to create again.")
         return
 
     try:
@@ -162,7 +162,7 @@ async def generate_str(c, m):
         return
     try:
         session_string = await client.export_session_string()
-        await client.send_message("me", f"**Your String Session 👇**\n\n`{session_string}`\n\nThanks For using {(await c.get_me()).mention(style='md')} \n ❤️@JNS_BOTS❤️")
+        await client.send_message("me", f"**Your String Session 👇**\n\n`{session_string}`\n\nThanks For using {(await c.get_me()).mention(style='md')} \n ❤️@Jimi_Bots❤️")
         text = "✅ Successfully Generated Your String Session and sent to you saved messages.\nCheck your saved messages or Click on Below Button."
         reply_markup = InlineKeyboardMarkup(
             [[InlineKeyboardButton(text="String Session ↗️", url=f"tg://openmessage?user_id={m.chat.id}")]]
@@ -199,7 +199,7 @@ async def help_cb(c, m, cb=True):
 **NOTE:**
 
 If you made any mistake anywhere press /cancel and then press /start
-❤️@JNS_BOTS❤️
+❤️@Jimi_Bots😎
 """
 
     buttons = [[
@@ -229,13 +229,13 @@ __📝 Language:__ [Python3](https://www.python.org/)
 
 __🧰 Framework:__ [Pyrogram](https://github.com/pyrogram/pyrogram)
 
-__👨‍💻 Developer:__ [JNS BOTS DEV](https://t.me/jintons)
+__👨‍💻 Developer:__ [JIMI BOTS DEV](https://t.me/Jimi_Bots)
 
-__📢 Channel:__ [JNS BOT UPDATES](https://t.me/jns_bots)
+__📢 Channel:__ [JNS BOT UPDATES](https://t.me/Jimi_Bots)
 
-__👥 Group:__ [JNS BOT SUPPORT](https://t.me/jns_fc_bots)
+__👥 Group:__ [JNS BOT SUPPORT](https://t.me/Jimi_Bots)
 
-__🚀 Movies:__ [FILM CORNER](https://t.me/FCfilmcornerfc)
+__🚀 Movies:__ [FILM CORNER](Will Be Updated Soon)
 """
 
     buttons = [[
